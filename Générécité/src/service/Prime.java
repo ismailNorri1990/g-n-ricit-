@@ -1,11 +1,13 @@
 package service;
 
+import methode.Manager;
+import methode.ServiceRh;
+
 public class Prime {
-			public Boolean recevoir() {
-				if()
-				return True;
-				
+			
+	public int recevoir(ServiceRh< ? extends Manager > serviceRh ,int salaire) {
+		return  salaire + 500;					
 			}
-	} 
+	}
 
 
