@@ -1,31 +1,18 @@
 package methode;
 
 public class  ServiceRh<T> {
-	private T serviceRh;
+	private T employe;
 
 	public T getServiceRh() {
-		return serviceRh;
+		return employe;
 	}
 
-	public void setServiceRh(T serviceRh) {
-		this.serviceRh = serviceRh;
+	public ServiceRh(T employe) {
+		this.employe = employe;
 	}
+	
 
-	public ServiceRh(T serviceRh) {
-		super();
-		this.serviceRh = serviceRh;
+	public T getEmploye() {
+		return employe;
 	}
-
-	public ServiceRh(int id, String nom, String prenom) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public ServiceRh(int id, String nom, String prenom, int salaire) {
-		// TODO Auto-generated constructor stub
-	}
-	
-	
-	
-	
-	
 }
